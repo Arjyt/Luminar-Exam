@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header li{
+    list-style: none;
+    margin-left: 20px;
+}
+li{
+    color:#508D4E;
+}
+.li button{
+    padding-left: 90px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.row{
+    position: relative;
+}
+.row img{
+    max-width: 100%;
+    object-fit: contain;
+    position: relative;
+    
+}
+.row1{
+background-image: url(https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/2bfc701c-a23a-4ee1-8cd5-ae9c1aa9e12d/Homepage-edit-First-Image.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+width: 100%;
+height: 600px;
+text-align: center;
+padding-top: 130px;
+}
+.row1 h1{
+    color: #508D4E;
+
+}
+.row1 p{
+    color: #508D4E;
+}
+.row2 p{
+    text-align:left;
+    color: #508D4E;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+button{
+    background-color: #508D4E;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
